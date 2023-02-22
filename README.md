@@ -109,7 +109,7 @@ after extracting the plate of the car, I did some preprocessing such as removing
 
 this is a sample input image:
 
-![main_pivture](./assets/pelakir_6.jpg)
+![main_picture](./assets/pelakir_6.jpg)
 
 First, I cropped each number and letter of the image: 
 
