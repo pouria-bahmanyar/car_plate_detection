@@ -1,16 +1,16 @@
 # Persian_Car_Plate_Detection
 
-In this project, I used ```YoloV7``` to detect plate of a car and then I used a CNN to OCR the plate.
+In this project, I used ```YoloV7``` to detect the plate of a car and then I used a CNN to OCR the plate.
 
 ## Training YoloV7 for plate detection
 
 For this part, I used [YoloV7](https://github.com/WongKinYiu/yolov7) repository and I just followed the structure of this repository.
 ### Dataset 
-I used a mixture of [IranianCarsNumberPlate](https://www.kaggle.com/datasets/skhalili/iraniancarnumberplate) and [Car_License_Plate_Detection](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection). For data preprocessing I used [Roboflow](https://app.roboflow.com/) and I prepared data for ```Yolo``` Format.
+I used a mixture of [IranianCarsNumberPlate](https://www.kaggle.com/datasets/skhalili/iraniancarnumberplate) and [Car_License_Plate_Detection](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection). For data preprocessing, I used [Roboflow](https://app.roboflow.com/) and I prepared data for ```Yolo``` Format.
 
 ### Training and Prediction
 I trained the model for ```epochs = 150``` and ```batch_size = 8```.
-here are the results of training and predictions:
+here are the results of the training and predictions:
 
 ![training_figures](./assets/results.png)
 
